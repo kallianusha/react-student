@@ -1,0 +1,125 @@
+body{
+	background:#15E2F3  ;
+}
+.main{
+	background:#F315D4   ;
+	display:flex;
+	justify-content: space-around;
+	margin:5%;
+}
+.left{
+	background: #FFC300 ;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:25%;
+	text-align: center;
+	height:45%;
+}
+.right{
+	background:#FFC300;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:60%;
+	padding:2%;
+}
+img{
+	border-radius: 4%;
+	margin:4%;
+	width:50%;
+	height:30%;
+}
+@media screen and (max-width:426px) {
+	body{
+	background:#81D6D1;
+
+}
+.maindiv{
+	background:#3AB5AD;
+	display:inline-block;
+	justify-content: space-around;
+	margin:5%;
+	flex-direction: column;
+}
+.leftdiv{
+	background: #137771;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:90%;
+	text-align: center;
+	/*height:45%;*/
+}
+
+.rightdiv{
+	background: #137771 ;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:90%;
+	padding:1%;
+	word-wrap: break-word;
+}
+
+img{
+	border-radius: 4%;
+	margin:4%;
+	width:40%;
+	height:20%;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	font-size: 25px;
+}
+}
+/*this css is for tablet view*/
+
+@media screen and (min-width:481px) and (max-width:720px) {
+	body{
+	background:#3AB5AD;
+
+}
+.main{
+	background:#81D6D1;
+	display:inline-block;
+	justify-content: space-around;
+	margin:5%;
+}
+.left{
+	background: #A2C3C1;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:90%;
+	text-align: center;
+	/*height:45%;*/
+}
+
+.right{
+	background: #A2C3C1;
+	margin:5%;
+	border-radius: 4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:90%;
+	padding:1%;
+	word-wrap: break-word;
+}
+
+img{
+	border-radius: 4%;
+	margin:4%;
+	width:40%;
+	height:20%;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	font-size: 25px;
+}
+}

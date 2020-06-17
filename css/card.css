@@ -1,0 +1,44 @@
+body{
+	background-color: #91DDAA ;
+}
+
+#main{
+	background-color: #61CF86;
+	margin: 10%;
+	padding: 4%;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 4%;
+
+}
+.sub{
+	background-color: #39784E;
+	width: 25%;
+	margin:  4%;
+	text-align: center;
+	border-radius: 5%;
+	box-shadow: 4px 4px 5px 5px;
+
+}
+.sub:hover{
+	color: #91DDAA ;
+}
+
+img{
+	width: 70%;
+	height: 50%;
+	border-radius: 5%;
+	margin: 4%;
+}
+p{
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+}
+a>h3{
+	color: black;
+}
+h3{
+	color: black;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<script type="text/javascript">
+		function tom(){
+			alert("hello")
+		}
+	</script>
+	<script type="text/javascript" src=basics.js></script>
+</head>
+<body>
+	<!--<h1>example for alert box</h1>-->
+	<form name="form1">
+		<!--<input type="radio" name="gender" id="user">
+		<input type="radio" name="gender" id="user">
+		<input type="radio" name="gender" id="user">
+		
+		<input type="button" onclick= "countpara()" value="clickme">
+		<p>anusha</p>
+		<p>nani</p>-->
+		<!--<input type="button" value="click" onclick="show()">-->
+		<!--<div id="generate"></div>-->
+		<input type="password" value="" name="pswd" onkeyup="password"><br>password strength<span id="check"></span>
+	</form>
+	<script type="text/javascript">
+			function password(){
+				var message;
+				if(document.form1.pswd.value.length>6){
+					message="excellent";
+				}
+				else{
+					message="poor";
+				}
+				document.getElementById("check").innerText=message;
+			}
+
+			//function print(){
+				//var name1=document.getElementsById("user").value;
+				//alert("welcome "+name1);
+			//}
+			//function forname(){
+				//var genders=document.getElementsByName("gender");
+				//alert("total genders:"+genders.length)
+					//}
+
+
+				//function countpara(){
+					//var count=document.getElementsByTagName("input");
+					//alert("total parameters are:"+count.length);
+				//}
+					//var msg=true;
+					//function show(){
+					//	var data="Name:<input type='text' name='name'><br>comment:<textarea rows='8'cols='10'></textarea><br><input type ='submit' value='submit'>";
+					//	if(msg){
+						//document.getElementById("generate").innerHTML=data;	
+							//msg=false;		
+							
+						//}
+						//else{
+							//document.getElementById("generate").innerHTML="";	
+							//msg=true;	
+
+						//}}
+						
+
+
+				//x=5;
+				//y=7;
+				//var z=x+y;
+				//document.write(z);
+				//function calculte(){
+					//var a=50; //local
+					//alert(x);
+				//}
+				//function calculates(){
+					//alert(z);
+				//}
+				//calcultes()
+
+				/*for(i=1;i<=6;i++){
+					document.write(i+"<br/>");
+				}
+				var a=6;
+				while(a<=10){
+					document.write(a+"<br/>");
+				}*/
+				
+	//</script>
+	<!-- -->
+	<!--<script type=text/javascript>
+
+	document.write("hello world");
+	alert("hello,anu");
+	</script>-->
+</body>
+</html>
